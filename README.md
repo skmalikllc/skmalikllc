@@ -43,19 +43,21 @@ findable six months later.
 
 ## Selected work
 
+The strongest ten. The full index — **19 repositories, organised by discipline** — is
+in **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)**.
+
 | Project | What it is | Type |
 |---|---|---|
-| **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)** | The full portfolio index, with architecture and proof for each system | Index |
-| **[contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp)** | MCP server: profile, match and merge a contact export with the evidence | Open-source utility |
+| **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)** | The full portfolio index, organised by discipline, with proof for each system | Index |
+| **[contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp)** | MCP server: profile, match and merge a contact export **with the evidence for each match** | Open-source utility |
+| **[api-webhook-integration-patterns](https://github.com/skmalikllc/api-webhook-integration-patterns)** | Validation, field mapping, retries, idempotency, HMAC verification — 31 tests, CI green | Technical lab |
 | **[table-to-sheets](https://github.com/skmalikllc/table-to-sheets)** | Chrome extension: any HTML table into CSV or Sheets, merged cells expanded first | Open-source utility |
-| **[n8n-google-contacts-backup](https://github.com/skmalikllc/n8n-google-contacts-backup)** | Scheduled backup of a client's Google Contacts | Sanitized client case study |
-| **[icloud-google-contacts-sync](https://github.com/skmalikllc/icloud-google-contacts-sync)** | Reconciling one person's contacts across two address books | Sanitized client case study |
-| **[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation)** | Apps Script repair, extension and generation | Sanitized client case studies |
-| **[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)** | Provider-to-provider migrations and file architecture | Sanitized client case studies |
+| **[data-sync-dedup-reconciliation](https://github.com/skmalikllc/data-sync-dedup-reconciliation)** | The method behind sync, deduplication, reconciliation and migration validation | Method + case index |
+| **[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation)** | Apps Script repair, extension, and a 617-question form generated programmatically | Sanitized client case studies |
+| **[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)** | Provider-to-provider migrations and file architecture, structure intact | Sanitized client case studies |
 | **[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)** | Overloaded business mailboxes turned back into a working queue | Sanitized client case studies |
-| **[jotform-client-intake-automation](https://github.com/skmalikllc/jotform-client-intake-automation)** | Forms and intake workflows | Sanitized client case study |
-| **[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies)** | Workflow builds, integrations and troubleshooting | Sanitized client case studies |
-| **[digital-operations-portfolio](https://github.com/skmalikllc/digital-operations-portfolio)** | Earlier e-commerce, analysis and document work | Engagement record |
+| **[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies)** | n8n, Make and Zapier builds, plus the jobs that arrive already broken | Sanitized client case studies |
+| **[airtable-systems-portfolio](https://github.com/skmalikllc/airtable-systems-portfolio)** | Three completed Airtable client engagements, and how I handle duplicates in a base | Client engagement record |
 
 ---
 
@@ -118,25 +120,51 @@ of why migrations I run do not lose files.
 
 ## Skills
 
-**Automation** — n8n · Make · Zapier · workflow design · triggers · scheduling · error handling
+### Primary
 
-**Google** — Google Workspace · Apps Script · Sheets · Gmail · Drive · Contacts · Forms · Docs
+The fifteen I am actually hired for:
 
-**Integrations** — REST APIs · webhooks · JSON · data mapping · OAuth-based app authorisation
+`n8n` · `Make.com` · `Zapier` · `Google Apps Script` · `Google Workspace` ·
+`Google Sheets` · `REST APIs` · `Webhooks` · `Data migration` ·
+`Deduplication & reconciliation` · `Airtable` · `Node.js` · `JavaScript` ·
+`CSV / data cleanup` · `Model Context Protocol (MCP)`
 
-**Data** — migration · sync · deduplication · reconciliation · CSV · Excel · data cleanup
+<details>
+<summary><b>Full capability matrix</b> — every group, with the repository that evidences it</summary>
 
-**AI / modern systems** — Model Context Protocol (MCP) · AI-assisted workflows · LLM API integration
+<br>
 
-**Client systems** — Jotform · CRM and intake workflows · notification and file systems
+| Group | Skills | Evidenced in |
+|---|---|---|
+| **Workflow automation** | n8n · Make.com · Zapier · workflow design · triggers · scheduling · conditional logic · error handling · workflow troubleshooting | [automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies) · [n8n-google-contacts-backup](https://github.com/skmalikllc/n8n-google-contacts-backup) · [workflow-automation-patterns](https://github.com/skmalikllc/workflow-automation-patterns) |
+| **Google Workspace** | Workspace · Sheets · Apps Script · Drive · Gmail · Contacts · Forms · Docs · Workspace admin troubleshooting | [google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation) · [gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization) · [google-workspace-automation-lab](https://github.com/skmalikllc/google-workspace-automation-lab) |
+| **APIs & integrations** | REST APIs · webhooks · JSON · data mapping · request/response troubleshooting · HMAC signature verification · retries · idempotency | [api-webhook-integration-patterns](https://github.com/skmalikllc/api-webhook-integration-patterns) |
+| **Data & migration** | data migration · synchronisation · contact sync · deduplication · reconciliation · data cleanup · CSV · Excel · duplicate prevention · file migration · folder architecture | [data-sync-dedup-reconciliation](https://github.com/skmalikllc/data-sync-dedup-reconciliation) · [contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp) · [cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies) |
+| **Databases & client systems** | Airtable · CRM workflows · Jotform · client intake · form workflows · database operations · CRM data cleanup | [airtable-systems-portfolio](https://github.com/skmalikllc/airtable-systems-portfolio) · [jotform-client-intake-automation](https://github.com/skmalikllc/jotform-client-intake-automation) |
+| **AI / modern automation** | Model Context Protocol (MCP) · AI-assisted data workflows · tool schemas | [contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp) |
+| **Development** | JavaScript · Node.js · Chrome Extensions (MV3) · GitHub Actions · `node:test` · scripting · Python (supporting level) | [table-to-sheets](https://github.com/skmalikllc/table-to-sheets) · [api-webhook-integration-patterns](https://github.com/skmalikllc/api-webhook-integration-patterns) · [contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp) |
+| **Cloud & file systems** | Google Drive · OneDrive · Dropbox · Mega · cloud migration · file organisation · folder architecture · migration verification | [cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies) |
+| **Business operations** | documentation · document control · reporting · email management · file management · administrative systems · data management · project coordination · process improvement · client follow-up | [business-operations-systems](https://github.com/skmalikllc/business-operations-systems) · [digital-operations-portfolio](https://github.com/skmalikllc/digital-operations-portfolio) |
+| **E-commerce** | Amazon · eBay · Etsy · Shopify · WooCommerce · WordPress · product and catalogue operations · e-commerce administration | [ecommerce-operations-portfolio](https://github.com/skmalikllc/ecommerce-operations-portfolio) |
 
-**Development** — JavaScript · Node.js · Python · Chrome Extensions (MV3) · Git · GitHub Actions
+**Deliberately not claimed**, because no verified completed project exists: HubSpot
+migrations or admin · Stripe · Twilio / WhatsApp Business specialisation ·
+GoHighLevel migrations · Clay · Attio · WeCom · Formstack · advanced security or
+compliance engineering · WordPress plugin or theme development · marketplace API and
+inventory-sync automation.
 
-**Cloud & operations** — Google Drive · Dropbox · OneDrive · Mega · file architecture · mailbox organisation
+</details>
 
-**E-commerce & digital operations** — Shopify · Amazon · eBay · Etsy · WooCommerce / WordPress
+### Supporting experience
 
-**Professional operations** — documentation · process improvement · technical training · quality discipline · operations coordination
+From the technical operations career, and useful rather than headline:
+
+technical training · operations supervision · documentation discipline ·
+quality and compliance awareness · fault-finding · preventive maintenance ·
+administrative systems
+
+**This is operations and documentation discipline, not software engineering**, and it
+is not presented as such anywhere in this portfolio.
 
 ---
 
@@ -148,7 +176,7 @@ of why migrations I run do not lose files.
 | **Fiverr** | 221 completed orders · 100% on-time delivery *(account snapshot, Sep 2026)* |
 | **Fiverr rating** | **4.9 ★ from 109 reviews** — 107 five-star, 2 four-star *(verified Sep 2026)* |
 | **Upwork** | 100% Job Success · Rising Talent · 5 completed contracts, every one **5.0** |
-| **Here** | 2 open-source tools with tests running in CI on every push |
+| **Here** | 19 repositories · 3 of them with tests running in CI on every push |
 
 ### What clients said
 
