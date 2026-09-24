@@ -1,134 +1,171 @@
-# SK Malik — Automation, Integrations & Data Migration
+<img src="https://raw.githubusercontent.com/skmalikllc/automation-portfolio/main/assets/hero.png" alt="SK Malik — Automation, Integrations & Business Systems" width="100%">
 
-**n8n · Make · Google Workspace · Apps Script · APIs · Webhooks · Data Sync**
+# SK Malik — Automation, Integrations & Business Systems
 
-Mianwali, Pakistan · UTC+5 · available for remote work
+I build the automations, integrations and data plumbing that small businesses and
+agencies run on, and I move data between systems without losing it on the way.
+Most of what I am handed is the unglamorous kind of work: an export where the same
+person appears three times under three spellings, a file estate that has to survive
+a migration exactly as it was, a workflow that stopped firing last Tuesday and
+nobody knows why.
 
----
-
-I build the automations and data plumbing that small businesses and agencies
-run on, and I move data between systems without losing it on the way.
-
-**What I do for clients**
-
-- **Workflow automation** — n8n, Make and Zapier-style builds: the scheduled
-  job, the form that has to reach three places, the alert nobody wants to send
-  by hand.
-- **Google Workspace automation** — Apps Script for Sheets, Gmail, Drive,
-  Forms and Calendar; the small internal tools a team actually uses.
-- **API and webhook integration** — connecting apps that have no native
-  integration, including authentication, retries and error handling.
-- **Data migration** — Drive, OneDrive, Dropbox, Mega and CRM exports moved
-  with the folder structure and the sharing intact.
-- **Data sync and cleanup** — contact and CRM exports deduplicated, normalised
-  and kept in step between two systems.
-- **MCP servers** — tools that let Claude work directly on a client's files and
-  data instead of describing what to do.
-
-Most of what I get asked for is the unglamorous kind of work: an export where
-the same person appears three times under three spellings, a Drive tree that
-has to survive a migration exactly as it was, a workflow that stopped firing
-last Tuesday and nobody knows why. My approach to all three is the same —
-inventory and verify before anything moves, and never let an automation guess
-when it should stop and ask.
+**200+ completed freelance engagements · 10+ years of client work · Google Workspace · Workflow automation · Mianwali, Pakistan (UTC+5)**
 
 ---
 
-## Proof
+## What I build
 
-| Where | Record |
+**⚙️ Workflow Automation** — `n8n` `Make` `Zapier`
+Multi-app workflows, scheduled processing, operational automation and the
+integrations between tools that have no native connection.
+
+**📄 Google Workspace Systems** — `Apps Script` `Sheets` `Gmail` `Drive` `Contacts` `Forms`
+Internal tools a team actually uses: scripted spreadsheets, generated forms,
+mailbox structure, and the Workspace troubleshooting nobody else wants.
+
+**🔌 API & Data Integration** — `REST APIs` `Webhooks` `JSON` `Data mapping`
+Connecting two systems that were never designed to talk to each other, including
+the authentication and the failure behaviour.
+
+**🧹 Data Sync & Quality** — `Deduplication` `Reconciliation` `Cleanup`
+Contact and CRM exports matched, merged and kept in step — with every conflicting
+value reported rather than quietly dropped.
+
+**☁️ Cloud Migration** — `Google Drive` `OneDrive` `Dropbox` `Mega`
+File estates moved between providers with the folder structure and names intact,
+and verified afterwards rather than assumed.
+
+**🗂️ Client Operations Systems** — `Jotform` `Intake` `CRM workflows` `File architecture`
+The form work arrives through, where it goes next, and the structure that keeps it
+findable six months later.
+
+---
+
+## Selected work
+
+| Project | What it is | Type |
+|---|---|---|
+| **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)** | The full portfolio index, with architecture and proof for each system | Index |
+| **[contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp)** | MCP server: profile, match and merge a contact export with the evidence | Open-source utility |
+| **[table-to-sheets](https://github.com/skmalikllc/table-to-sheets)** | Chrome extension: any HTML table into CSV or Sheets, merged cells expanded first | Open-source utility |
+| **[n8n-google-contacts-backup](https://github.com/skmalikllc/n8n-google-contacts-backup)** | Scheduled backup of a client's Google Contacts | Sanitized client case study |
+| **[icloud-google-contacts-sync](https://github.com/skmalikllc/icloud-google-contacts-sync)** | Reconciling one person's contacts across two address books | Sanitized client case study |
+| **[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation)** | Apps Script repair, extension and generation | Sanitized client case studies |
+| **[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)** | Provider-to-provider migrations and file architecture | Sanitized client case studies |
+| **[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)** | Overloaded business mailboxes turned back into a working queue | Sanitized client case studies |
+| **[jotform-client-intake-automation](https://github.com/skmalikllc/jotform-client-intake-automation)** | Forms and intake workflows | Sanitized client case study |
+| **[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies)** | Workflow builds, integrations and troubleshooting | Sanitized client case studies |
+| **[digital-operations-portfolio](https://github.com/skmalikllc/digital-operations-portfolio)** | Earlier e-commerce, analysis and document work | Engagement record |
+
+---
+
+## How I design reliable automations
+
+The part clients actually pay for is not the workflow. It is that the workflow does
+not quietly corrupt something at 3am on a Sunday.
+
+1. **Understand source and destination** before touching either.
+2. **Define the source of truth** — one system wins, in writing, before the first run.
+3. **Map the fields.** Most integration failures are a mapping assumption, not a bug.
+4. **Handle duplicates deliberately.** A merge rule decided up front beats a cleanup later.
+5. **Validate inputs** rather than trusting that they arrive in the shape they did last month.
+6. **Test with controlled data**, not the client's live records.
+7. **Verify the result** — count it, compare it, don't assume the tool told the truth.
+8. **Handle the exceptions** — and where something is genuinely ambiguous, stop and ask rather than guess.
+9. **Document the handover** so it survives without me.
+
+On larger builds this extends to retries, idempotent reruns, logging, alerting, a
+human approval step and end-of-run reconciliation — where the engagement warranted
+it. I do not claim every historical project had all nine.
+
+---
+
+## Professional background
+
+Two distinct tracks, and they should not be blurred together:
+
+**2003 – 2023 · Technical, operations and training career**
+Around twenty years of structured technical, administrative, operations, supervision
+and training work, beginning in Pakistan Air Force service. Documentation discipline,
+controlled operational environments, fault-finding, and training other people to
+follow a process correctly.
+
+**2015 – present · International freelance client services**
+Remote delivery for clients in the UK, US, Europe and Australia through Fiverr and
+Upwork — 200+ completed engagements.
+
+**Recent specialisation**
+Automation, integrations, Google Workspace systems, data migration and AI-assisted
+workflows.
+
+That first track is not software engineering, and I do not present it as such. What
+it gave me is the habit of writing things down before touching them — which is most
+of why migrations I run do not lose files.
+
+```
+2003 ──────────────────────────────── 2023
+   Technical / operations / training career
+                  │
+   2015 ──────────────────────────────▶ present
+      International freelance client services
+                                        │
+                              Automation · Integrations
+                              Google Workspace · APIs
+                              Data migration · MCP tooling
+```
+
+---
+
+## Skills
+
+**Automation** — n8n · Make · Zapier · workflow design · triggers · scheduling · error handling
+
+**Google** — Google Workspace · Apps Script · Sheets · Gmail · Drive · Contacts · Forms · Docs
+
+**Integrations** — REST APIs · webhooks · JSON · data mapping · OAuth-based app authorisation
+
+**Data** — migration · sync · deduplication · reconciliation · CSV · Excel · data cleanup
+
+**AI / modern systems** — Model Context Protocol (MCP) · AI-assisted workflows · LLM API integration
+
+**Client systems** — Jotform · CRM and intake workflows · notification and file systems
+
+**Development** — JavaScript · Node.js · Python · Chrome Extensions (MV3) · Git · GitHub Actions
+
+**Cloud & operations** — Google Drive · Dropbox · OneDrive · Mega · file architecture · mailbox organisation
+
+**E-commerce & digital operations** — Shopify · Amazon · eBay · Etsy · WooCommerce / WordPress
+
+**Professional operations** — documentation · process improvement · technical training · quality discipline · operations coordination
+
+---
+
+## Track record
+
+| | |
 |---|---|
-| **Upwork** | 100% Job Success · Rising Talent · 5 completed contracts, every one rated **5.0** |
-| **Fiverr** | **4.9 ★ from 109 reviews** · Level 1 seller |
-| **Here** | 2 tools of my own, both with tests running in CI on every push |
+| **Completed freelance engagements** | 200+ |
+| **Fiverr** | 221 completed orders · 100% on-time delivery *(account snapshot, Sep 2026)* |
+| **Fiverr rating** | **4.9 ★ from 109 reviews** — 107 five-star, 2 four-star *(verified Sep 2026)* |
+| **Upwork** | 100% Job Success · Rising Talent · 5 completed contracts, every one **5.0** |
+| **Here** | 2 open-source tools with tests running in CI on every push |
 
-The reviewed Upwork work is Google Workspace and automation: an n8n build,
-iCloud-to-Google contact sync, a Google Contacts backup automation, a
-Mega-to-Drive folder transfer with the structure kept intact, and Google Sheets
-script fixes.
+### What clients said
 
-> "He did an outstanding job on our n8n automation project. They quickly
-> understood our workflow requirements, provided expert insights, and delivered
-> a clean, efficient solution ahead of schedule."
-> — Upwork client, November 2025
+> "Delivered a clean, efficient solution ahead of schedule."
+> — Upwork client · n8n workflow build · Nov 2025
 
----
+> "Labels, filters, and folders were set up perfectly, saving me a lot of time."
+> — Fiverr client, United Kingdom · mailbox organisation · Aug 2026
 
-## Open-source tools
+> "The Jotform was built exactly as requested. Clean layout, smooth functionality."
+> — Fiverr client, Germany · client intake form · Aug 2026
 
-**[table-to-sheets](https://github.com/skmalikllc/table-to-sheets)** — Chrome
-extension (MV3) &nbsp;·&nbsp; ![tests](https://github.com/skmalikllc/table-to-sheets/actions/workflows/tests.yml/badge.svg)
+> "Drive was organized and really helped me and my team out."
+> — Fiverr client, United States · Drive reorganisation · 2025
 
-Pulls any HTML table off a page as CSV, or as a clipboard payload that pastes
-cleanly into Google Sheets. The part that usually breaks is merged cells: a
-`rowspan` silently shifts every following row one column left, so the sheet
-looks right until someone sorts it. This expands `rowspan`/`colspan` into a
-rectangle first. RFC 4180 quoting, UTF-8 BOM so Excel opens accented text.
-7 unit tests over jsdom.
-
-**[contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp)** — MCP
-server &nbsp;·&nbsp; ![tests](https://github.com/skmalikllc/contact-dedupe-mcp/actions/workflows/tests.yml/badge.svg)
-
-Four tools over stdio that let Claude work on a contact export: profile it, find
-the rows that are the same person, merge them, and report every conflict
-instead of quietly dropping it. Gmail dot and plus-tag rules on email,
-last-9-digits on phone, order-insensitive name comparison. 9 unit tests plus an
-end-to-end run that speaks the real protocol.
-
-Both are my own tools, written to solve problems that keep coming up in client
-work, then cleaned up so the code can be read.
-
----
-
-## Client case studies
-
-Sanitized write-ups of completed, reviewed client work — no client names, data,
-credentials or documents. Organised by discipline in
-**[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)**.
-
-**Workflow automation**
-[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies) ·
-[n8n-google-contacts-backup](https://github.com/skmalikllc/n8n-google-contacts-backup)
-
-**Google Workspace**
-[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation) ·
-[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)
-
-**Data sync & deduplication**
-[icloud-google-contacts-sync](https://github.com/skmalikllc/icloud-google-contacts-sync)
-
-**Client intake**
-[jotform-client-intake-automation](https://github.com/skmalikllc/jotform-client-intake-automation)
-
-**Cloud migration**
-[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)
-
-**Earlier work**
-[digital-operations-portfolio](https://github.com/skmalikllc/digital-operations-portfolio)
-
----
-
-## What I work with
-
-**Automation** — n8n · Make.com · Zapier · Google Apps Script · scheduled jobs and triggers
-
-**Google Workspace** — Sheets · Gmail · Drive · Forms · Calendar · Contacts · Sheets API · Drive API
-
-**Integration** — REST APIs · webhooks · OAuth · JSON · MCP (Model Context Protocol) · Supabase
-
-**Data** — CSV and data cleaning · deduplication · contact and CRM exports · Drive / OneDrive / Dropbox / Mega migrations · data sync
-
-**Development** — JavaScript · Node.js · Python · Chrome Extensions (MV3) · HTML / CSS · Git
-
-**Other platforms** — WordPress / WooCommerce · Shopify · Jotform · OpenAI and Claude API integrations
-
----
-
-## Background
-
-Around twenty years of technical, administrative, operations and training work —
-first in Pakistan Air Force service, then remote and freelance. That is where the
-habit of writing everything down before touching it comes from.
+> "Great to work with. Have done several projects."
+> — repeat Fiverr client, United States · Sep 2026
 
 ---
 
@@ -137,5 +174,5 @@ habit of writing everything down before touching it comes from.
 - **Upwork** — [upwork.com/freelancers/skmalik1](https://www.upwork.com/freelancers/skmalik1)
 - **Fiverr** — [fiverr.com/skmalik166](https://www.fiverr.com/skmalik166)
 
-Open to short migrations and cleanups, small builds, and ongoing automation
-support.
+Open to short migrations and cleanups, workflow builds, integration work and ongoing
+automation support.
