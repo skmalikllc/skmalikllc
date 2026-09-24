@@ -80,6 +80,26 @@ work, then cleaned up so the code can be read.
 
 ---
 
+## Client case studies
+
+Sanitized write-ups of completed, reviewed client work — no client names, data,
+credentials or documents.
+
+**[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)**
+Four completed engagements reorganising overloaded business Gmail accounts:
+labels, filters and folders built around how the business actually works, so
+the inbox stops refilling. All rated 5 stars; two became ongoing relationships.
+
+**[google-drive-file-organization](https://github.com/skmalikllc/google-drive-file-organization)**
+Drive structure work and cloud-to-cloud migrations across Upwork and Fiverr,
+2023–2025 — including a Mega → Google Drive transfer with the folder structure
+kept intact.
+
+Everything is indexed in
+**[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)**.
+
+---
+
 ## What I work with
 
 **Automation** — n8n · Make.com · Zapier · Google Apps Script · scheduled jobs and triggers
