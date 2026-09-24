@@ -83,20 +83,28 @@ work, then cleaned up so the code can be read.
 ## Client case studies
 
 Sanitized write-ups of completed, reviewed client work — no client names, data,
-credentials or documents.
-
-**[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)**
-Four completed engagements reorganising overloaded business Gmail accounts:
-labels, filters and folders built around how the business actually works, so
-the inbox stops refilling. All rated 5 stars; two became ongoing relationships.
-
-**[google-drive-file-organization](https://github.com/skmalikllc/google-drive-file-organization)**
-Drive structure work and cloud-to-cloud migrations across Upwork and Fiverr,
-2023–2025 — including a Mega → Google Drive transfer with the folder structure
-kept intact.
-
-Everything is indexed in
+credentials or documents. Organised by discipline in
 **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)**.
+
+**Workflow automation**
+[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies) ·
+[n8n-google-contacts-backup](https://github.com/skmalikllc/n8n-google-contacts-backup)
+
+**Google Workspace**
+[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation) ·
+[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)
+
+**Data sync & deduplication**
+[icloud-google-contacts-sync](https://github.com/skmalikllc/icloud-google-contacts-sync)
+
+**Client intake**
+[jotform-client-intake-automation](https://github.com/skmalikllc/jotform-client-intake-automation)
+
+**Cloud migration**
+[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)
+
+**Earlier work**
+[digital-operations-portfolio](https://github.com/skmalikllc/digital-operations-portfolio)
 
 ---
 
