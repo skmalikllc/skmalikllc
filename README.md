@@ -43,7 +43,7 @@ findable six months later.
 
 ## Selected work
 
-The strongest ten. The full index — **19 repositories, organised by discipline** — is
+The strongest eight. The full index — **19 repositories, organised by discipline** — is
 in **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)**.
 
 | Project | What it is | Type |
@@ -51,11 +51,9 @@ in **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)*
 | **[automation-portfolio](https://github.com/skmalikllc/automation-portfolio)** | The full portfolio index, organised by discipline, with proof for each system | Index |
 | **[contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp)** | MCP server: profile, match and merge a contact export **with the evidence for each match** | Open-source utility |
 | **[api-webhook-integration-patterns](https://github.com/skmalikllc/api-webhook-integration-patterns)** | Validation, field mapping, retries, idempotency, HMAC verification — 31 tests, CI green | Technical lab |
-| **[table-to-sheets](https://github.com/skmalikllc/table-to-sheets)** | Chrome extension: any HTML table into CSV or Sheets, merged cells expanded first | Open-source utility |
 | **[data-sync-dedup-reconciliation](https://github.com/skmalikllc/data-sync-dedup-reconciliation)** | The method behind sync, deduplication, reconciliation and migration validation | Method + case index |
 | **[google-workspace-apps-script-automation](https://github.com/skmalikllc/google-workspace-apps-script-automation)** | Apps Script repair, extension, and a 617-question form generated programmatically | Sanitized client case studies |
 | **[cloud-file-migration-case-studies](https://github.com/skmalikllc/cloud-file-migration-case-studies)** | Provider-to-provider migrations and file architecture, structure intact | Sanitized client case studies |
-| **[gmail-business-inbox-organization](https://github.com/skmalikllc/gmail-business-inbox-organization)** | Overloaded business mailboxes turned back into a working queue | Sanitized client case studies |
 | **[automation-client-case-studies](https://github.com/skmalikllc/automation-client-case-studies)** | n8n, Make and Zapier builds, plus the jobs that arrive already broken | Sanitized client case studies |
 | **[airtable-systems-portfolio](https://github.com/skmalikllc/airtable-systems-portfolio)** | Three completed Airtable client engagements, and how I handle duplicates in a base | Client engagement record |
 
