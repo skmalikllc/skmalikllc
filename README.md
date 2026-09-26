@@ -174,7 +174,28 @@ is not presented as such anywhere in this portfolio.
 | **Fiverr** | 221 completed orders · 100% on-time delivery *(account snapshot, Sep 2026)* |
 | **Fiverr rating** | **4.9 ★ from 109 reviews** — 107 five-star, 2 four-star *(verified Sep 2026)* |
 | **Upwork** | 100% Job Success · Rising Talent · 5 completed contracts, every one **5.0** |
-| **Here** | 19 repositories · 3 of them with tests running in CI on every push |
+| **Here** | 24 repositories · 3 of them with tests running in CI on every push |
+
+### Verified Fiverr delivery snapshot
+
+*Based on the reviewed Fiverr history snapshot of 26 September 2026 — not a lifetime total.*
+
+| Service line | Orders reviewed | Rated |
+|---|---:|---:|
+| Cloud and file migration — Drive, Dropbox, OneDrive | 40 | 13 |
+| Gmail and business inbox systems | 27 | 14 |
+| GoHighLevel / CRM lead capture | 19 | 8 |
+| n8n and Make automation builds | 6 | 2 |
+| Jotform forms and client intake | 5 | 3 |
+| Smaller and one-off engagements | 6 | 3 |
+| **Reviewed** | **103** | **44** |
+
+**103 of 221 completed Fiverr orders were individually reviewed** before the
+platform presented a human-verification step and the audit stopped. Every rating
+observed across those 103 was 5 stars. The remaining 118 completed orders are
+counted in the 221 total but were not individually reconstructed, and nothing has
+been estimated to fill the gap. Full accounting:
+[fiverr-project-archive](https://github.com/skmalikllc/fiverr-project-archive).
 
 ### What clients said
 
