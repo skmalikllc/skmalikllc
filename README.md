@@ -203,4 +203,4 @@ Open to international and remote opportunities across technical operations, mech
 
 Open to short migrations and cleanups, workflow builds, integration work and ongoing automation support.
 
-Email — sk.malik.llc@gmail.com · [LinkedIn: Shoukat Abbas](https://www.linkedin.com/in/shoukat-abbas/) · [Upwork](https://www.upwork.com/freelancers/skmalik1) · [Fiverr](https://www.fiverr.com/skmalik166)
+Email — sk.malik159@gmail.com · [LinkedIn: Shoukat Abbas](https://www.linkedin.com/in/shoukat-abbas/) · [Upwork](https://www.upwork.com/freelancers/skmalik1) · [Fiverr](https://www.fiverr.com/skmalik166)
